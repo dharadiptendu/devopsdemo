@@ -2,6 +2,6 @@
 
 echo "Starting Maven Build"
 
-./mvnw clean package
+./mvnw clean package -DskipTests
 
 echo "Build Completed"

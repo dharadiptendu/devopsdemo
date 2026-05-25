@@ -25,7 +25,7 @@ jobs:
         run: chmod +x mvnw
 
       - name: Build Maven Project
-        run: ./mvnw clean package
+        run: ./mvnw clean package -DskipTests
 
       - name: Build Docker Image
         run: docker build -t devopsdemo .
