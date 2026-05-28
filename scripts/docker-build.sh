@@ -2,6 +2,6 @@
 
 echo "Starting Docker Build"
 
-docker build -t devopsdemo .
+docker build -t product-service .
 
 echo "Docker Image Created"
